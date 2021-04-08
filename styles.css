@@ -1,0 +1,150 @@
+body{
+    font-family:'Montserrat',sans-serif ;
+}
+/* Headings */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat-Bold',sans-serif;
+    font-weight: 700;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{ 
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Title */
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navbar Styling */
+.navbar{
+    padding-left: 0;
+}
+ .navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Ubuntu';
+}
+.nav-item{
+   padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+.big-headng{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+    
+}
+/* Download buttons */
+.Download-btn{
+    margin-right:3%;
+}
+
+
+#headImg{
+    transform: rotate(25deg);
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+
+
+/* Features Section*/
+#features{
+    background-color: #fff;
+    position:relative;
+    z-index: 1;
+}
+.icon{
+    color:#ef8172;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+.feature-description{
+    color:#8f8f8f;
+}
+.container{
+    max-width: 1000px;
+}
+
+/* Testimonials Section */
+#testimonials,#press{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-Bold',sans-serif;
+    color:#fff;
+}
+
+.dog-image,.testimonial-image{
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.press-container{
+   display: flex;
+   justify-content: space-between;
+}
+.press-image{
+    width: 15%;
+}
+
+
+/* Pricing */
+#pricing{
+    padding:100px;
+}
+.card{
+    margin:3%;
+}
+
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat-Bold',sans-serif;
+    color:#fff;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    background-color: #fff;
+}
+.foot-para{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(163, 159, 159);
+}
+/* media queries */
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    #headImg{
+        position: static;
+        transform: rotate(0);
+    }
+    .container-fluid{
+        padding: 2% 10%;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    h2{
+        line-height: 1.5;
+    }
+}
